@@ -4,7 +4,12 @@ public class FizzBuzz {
 
     private String[] fizzBuzzSequence;
 
+    private int lengthOfFizzBuzz;
     public FizzBuzz(int lengthOfFizzBuzz){
+
+        fizzBuzzSequence = new String[lengthOfFizzBuzz+1];
+
+        this.lengthOfFizzBuzz = lengthOfFizzBuzz;
 
         for(int iterator=1;iterator<=lengthOfFizzBuzz;iterator++){
             //to check for FizzBuzz
@@ -19,6 +24,15 @@ public class FizzBuzz {
             }
         }
 
+    }
+
+    public String fizzBuzzEachNumberCheck(int numberToCheck) throws IllegalArgumentException{
+
+        if(numberToCheck<0 || numberToCheck> lengthOfFizzBuzz){
+            throw new IllegalArgumentException();
+        }
+
+        return fizzBuzzSequence[numberToCheck];
     }
 
 }

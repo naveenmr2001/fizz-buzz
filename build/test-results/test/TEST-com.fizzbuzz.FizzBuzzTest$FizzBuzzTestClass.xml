@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fizzbuzz.FizzBuzzTest$FizzBuzzTestClass" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-30T05:50:53" hostname="M2P-LAP-222" time="0.05">
+  <properties/>
+  <testcase name="toCheckANumberInAFizzBuzzSequenceForThree()" classname="com.fizzbuzz.FizzBuzzTest$FizzBuzzTestClass" time="0.038"/>
+  <testcase name="toCheckANumberInAFizzBuzzSequenceForFive()" classname="com.fizzbuzz.FizzBuzzTest$FizzBuzzTestClass" time="0.001"/>
+  <testcase name="toCheckANumberInAFizzBuzzSequenceForFifteen()" classname="com.fizzbuzz.FizzBuzzTest$FizzBuzzTestClass" time="0.002"/>
+  <testcase name="toCheckANumberInAFizzBuzzSequenceForOne()" classname="com.fizzbuzz.FizzBuzzTest$FizzBuzzTestClass" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
